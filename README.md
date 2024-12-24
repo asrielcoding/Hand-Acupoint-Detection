@@ -14,3 +14,10 @@ Taking picture of hands at different angles and different people(different skin 
 - Left and right hand per person
 - One-second video can be divided into about 3600 frames by OpenCV
 
+## Hand Detection
+Use Yolov8 model for hand detection and cropping images bounded by bbox.
+- Checkout data_process and dataprocess.ipynb for details and codes
+
+## Inpainting
+We annotated acupuncure points with blue dot stickers, and then convert BGR to HSV.
+- Checkout dataprocess.ipynb and inpaint.py for details and codes
